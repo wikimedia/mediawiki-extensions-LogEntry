@@ -673,8 +673,8 @@ $messages['vep'] = array(
  */
 $messages['vi'] = array(
 	'logentry-append' => 'Nối',
-	'logentry-parserhook-desc' => 'Bộ mở rộng thẻ này cung cấp một mẫu đơn để nối/cắt các trang nhật trình',
-	'logentry-specialpage-desc' => 'Bộ mở rộng thẻ này cung cấp cách xử lý nối các trang nhật trình',
+	'logentry-parserhook-desc' => 'Phần mở rộng thẻ này cung cấp một mẫu đơn để nối/cắt các trang nhật trình',
+	'logentry-specialpage-desc' => 'Phần mở rộng thẻ này cung cấp cách xử lý nối các trang nhật trình',
 	'logentry' => 'Mục nhật trình',
 	'logentry-invalidpage' => 'Trang không hợp lệ: $1',
 	'logentry-invalidtoken' => 'Khóa không hợp lệ',
