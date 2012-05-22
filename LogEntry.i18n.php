@@ -346,6 +346,7 @@ $messages['id'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -353,7 +354,7 @@ $messages['it'] = array(
 	'logentry-parserhook-desc' => "Questa estensione tag fornisce un modulo per aggiungere del testo all'inizio o alla fine della pagine dei registri",
 	'logentry-specialpage-desc' => 'Questa estensione tag fornisce un processo per aggiungere alle pagine dei registri',
 	'logentry' => 'LogEntry',
-	'logentry-invalidpage' => 'Pagina non valida',
+	'logentry-invalidpage' => 'Pagina non valida: $1',
 	'logentry-invalidtoken' => 'Token non valido',
 );
 
