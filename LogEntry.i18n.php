@@ -40,6 +40,7 @@ $messages['af'] = array(
 );
 
 /** Arabic (العربية)
+ * @author DRIHEM
  * @author Meno25
  * @author OsamaK
  */
@@ -48,7 +49,7 @@ $messages['ar'] = array(
 	'logentry-parserhook-desc' => 'امتداد الوسم هذا يوفر استمارة للإضافة/التخطيط لصفحات السجلات',
 	'logentry-specialpage-desc' => 'امتداد الوسم هذا يوفر معالجة للإضافة لصفحات السجلات',
 	'logentry' => 'مدخلة سجل',
-	'logentry-invalidpage' => 'صفحة غير صحيحة',
+	'logentry-invalidpage' => 'صفحة خاطئة: $1',
 	'logentry-invalidtoken' => 'نص غير صحيح',
 );
 
