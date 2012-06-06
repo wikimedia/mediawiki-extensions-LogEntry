@@ -362,11 +362,12 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'logentry-append' => '追加',
-	'logentry-parserhook-desc' => 'このタグ拡張機能はログページの先頭または末尾に項目を追加するフォームを提供します。',
-	'logentry-specialpage-desc' => 'このタグ拡張機能はログページに項目を追加する処理を提供します。',
+	'logentry-parserhook-desc' => 'このタグ拡張機能はログページの先頭または末尾に項目を追加するフォームを提供する',
+	'logentry-specialpage-desc' => 'このタグ拡張機能はログページに項目を追加する処理を提供する',
 	'logentry' => 'ログ項目',
 	'logentry-invalidpage' => '無効なページ： $1',
 	'logentry-invalidtoken' => '無効な字句',
