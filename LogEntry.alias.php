@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'LogEntry' => array( 'مدخلة_سجل' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'LogEntry' => array( 'UnosZapisa' ),
 );
@@ -31,6 +31,11 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'LogEntry' => array( 'Logbucheintrag' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'LogEntry' => array( 'QeydDekerdış' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -63,12 +68,12 @@ $specialPageAliases['ht'] = array(
 	'LogEntry' => array( 'AntreJounal' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'LogEntry' => array( 'Naplóbejegyzés' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'LogEntry' => array( 'Entrata_de_registro' ),
 );
@@ -81,6 +86,11 @@ $specialPageAliases['id'] = array(
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'LogEntry' => array( '記録項目' ),
+);
+
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'LogEntry' => array( '항목기록' ),
 );
 
 /** Colognian (Ripoarisch) */
@@ -98,7 +108,7 @@ $specialPageAliases['lb'] = array(
 	'LogEntry' => array( 'Rubrik_an_engem_Logbuch' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'LogEntry' => array( 'ЗаписВоДневник' ),
 );
@@ -113,7 +123,7 @@ $specialPageAliases['mt'] = array(
 	'LogEntry' => array( 'DaħlaReġistru' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'LogEntry' => array( 'Loggelement' ),
 );
@@ -128,7 +138,7 @@ $specialPageAliases['nl'] = array(
 	'LogEntry' => array( 'Logboekregel' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'LogEntry' => array( 'Entrada_no_registo' ),
 );
@@ -138,7 +148,7 @@ $specialPageAliases['sa'] = array(
 	'LogEntry' => array( 'अंकनप्रविष्टि' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'LogEntry' => array( 'PoložkaZáznamu' ),
 );
