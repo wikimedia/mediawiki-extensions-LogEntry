@@ -65,7 +65,7 @@ $messages['arz'] = array(
 	'logentry-invalidtoken' => 'نص غير صحيح',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -97,7 +97,7 @@ $messages['be-tarask'] = array(
 	'logentry-invalidtoken' => 'Няслушны сымбаль',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -113,7 +113,7 @@ $messages['bn'] = array(
 	'logentry-invalidtoken' => 'অবৈধ টোকেন',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -125,7 +125,7 @@ $messages['br'] = array(
 	'logentry-invalidtoken' => 'Fichenn direizh',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -137,14 +137,14 @@ $messages['bs'] = array(
 	'logentry-invalidtoken' => 'Nevaljan token',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  */
 $messages['ca'] = array(
 	'logentry-invalidpage' => 'Pàgina no vàlida',
 );
 
-/** Czech (Česky) */
+/** Czech (česky) */
 $messages['cs'] = array(
 	'logentry-append' => 'Přidat',
 	'logentry-invalidtoken' => 'Neplatný token',
@@ -199,7 +199,7 @@ $messages['eo'] = array(
 	'logentry-invalidtoken' => 'Malvalida ĵetono',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Crazymadlover
  */
@@ -212,7 +212,7 @@ $messages['es'] = array(
 	'logentry-invalidtoken' => 'Ficha inválida',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -220,7 +220,7 @@ $messages['eu'] = array(
 	'logentry-invalidpage' => 'Baliogabeko orrialdea',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
  * @author Str4nd
@@ -233,7 +233,7 @@ $messages['fi'] = array(
 	'logentry-invalidtoken' => 'Virheellinen lipuke',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author Hashar
  * @author IAlex
@@ -248,7 +248,7 @@ $messages['fr'] = array(
 	'logentry-invalidtoken' => 'Prise incorrecte',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -309,7 +309,7 @@ $messages['hsb'] = array(
 	'logentry-invalidtoken' => 'Njepłaćiwy token',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -322,7 +322,7 @@ $messages['hu'] = array(
 	'logentry-invalidtoken' => 'Érvénytelen token',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -346,7 +346,7 @@ $messages['id'] = array(
 	'logentry-invalidtoken' => 'Token tidak sah',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Darth Kule
  */
@@ -401,7 +401,7 @@ $messages['lb'] = array(
 	'logentry-invalidpage' => 'Net valabel Säit: $1',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -457,7 +457,7 @@ $messages['nl'] = array(
 	'logentry-invalidtoken' => 'Ongeldig token',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -470,7 +470,7 @@ $messages['nn'] = array(
 	'logentry-invalidtoken' => 'Ugyldig token',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -489,7 +489,7 @@ $messages['pdc'] = array(
 	'logentry-append' => 'Dezu duh',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -520,7 +520,7 @@ $messages['ps'] = array(
 	'logentry-invalidpage' => 'ناسم مخ',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author SandroHc
@@ -534,7 +534,7 @@ $messages['pt'] = array(
 	'logentry-invalidtoken' => 'Token inválido',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -546,7 +546,7 @@ $messages['pt-br'] = array(
 	'logentry-invalidtoken' => 'Token inválido',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  * @author Minisarm
  */
@@ -554,7 +554,7 @@ $messages['ro'] = array(
 	'logentry-invalidpage' => 'Pagină nevalidă: $1',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -566,7 +566,7 @@ $messages['roa-tara'] = array(
 	'logentry-invalidtoken' => 'Token invalide',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  * @author Ferrer
  * @author Александр Сигачёв
@@ -580,7 +580,7 @@ $messages['ru'] = array(
 	'logentry-invalidtoken' => 'Неправильный токен',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -592,26 +592,26 @@ $messages['sk'] = array(
 	'logentry-invalidtoken' => 'Neplatný token',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Puntori
  */
 $messages['sq'] = array(
 	'logentry-invalidpage' => 'Faqe jovalide',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'logentry-append' => 'Додај',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'logentry-append' => 'Dodaj',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Fluff
  * @author Najami
  * @author Sertion
@@ -652,7 +652,7 @@ $messages['tr'] = array(
 	'logentry' => 'KayıtGirdisi',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Тест
  */
 $messages['uk'] = array(
@@ -700,7 +700,7 @@ $messages['yi'] = array(
 	'logentry-invalidtoken' => 'אומגילטיקער טאקן',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Bencmq
  * @author Hydra
  */
@@ -711,7 +711,7 @@ $messages['zh-hans'] = array(
 	'logentry-invalidtoken' => '无效的标记',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
