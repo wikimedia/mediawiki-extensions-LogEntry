@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'LogEntry' => array( 'مدخلة_سجل' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'LogEntry' => array( 'অভিলেখ_ভৰ্ত্তি' ),
+);
+
 /** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'LogEntry' => array( 'UnosZapisa' ),
@@ -38,7 +43,7 @@ $specialPageAliases['diq'] = array(
 	'LogEntry' => array( 'QeydDekerdış' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'LogEntry' => array( 'Protokolowy_zapisk' ),
 );
@@ -48,7 +53,7 @@ $specialPageAliases['fa'] = array(
 	'LogEntry' => array( 'مدخل_سیاهه' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'LogEntry' => array( 'Entrada_no_rexistro' ),
 );
@@ -58,7 +63,7 @@ $specialPageAliases['gsw'] = array(
 	'LogEntry' => array( 'Logbuechyytrag' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'LogEntry' => array( 'Protokolowy_zapisk' ),
 );
