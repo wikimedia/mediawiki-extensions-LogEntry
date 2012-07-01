@@ -84,7 +84,7 @@ $messages['bar'] = array(
 	'logentry-invalidpage' => 'Ungültige Seitn',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -163,7 +163,7 @@ $messages['de'] = array(
 	'logentry-invalidtoken' => 'Ungültiges Token',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -258,7 +258,7 @@ $messages['frp'] = array(
 	'logentry-invalidtoken' => 'Prêsa fôssa',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -297,7 +297,7 @@ $messages['he'] = array(
 	'logentry-invalidtoken' => 'אסימון בלתי תקין',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
