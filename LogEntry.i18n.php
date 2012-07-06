@@ -641,7 +641,7 @@ $messages['tl'] = array(
 	'logentry-parserhook-desc' => 'Ang karugtong na tatak na ito ay nagbibigay ng isang pormularyo para sa pagdurugtong sa huli/harap ng mga pahina ng pagtatala',
 	'logentry-specialpage-desc' => 'Ang karugtong na tatak na ito ay nagbibigay ng pagpoproseso ng pagdurugtong sa mga pahina ng pagtatala',
 	'logentry' => 'Pagpapasok sa Tala',
-	'logentry-invalidpage' => 'Hindi tanggap na pahina',
+	'logentry-invalidpage' => 'Hindi katanggap-tanggap na pahina: $1',
 	'logentry-invalidtoken' => 'Hindi tanggap na pananda',
 );
 
