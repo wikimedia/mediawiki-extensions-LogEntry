@@ -160,7 +160,7 @@ $specialPageAliases['sk'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'LogEntry' => array( 'Pagpasok sa tala' ),
+	'LogEntry' => array( 'Pagpasok_sa_tala' ),
 );
 
 /** Turkish (Türkçe) */
