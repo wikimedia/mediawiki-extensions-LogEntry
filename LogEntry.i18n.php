@@ -433,7 +433,7 @@ $messages['nah'] = array(
 	'logentry-invalidpage' => 'Ahcualli āmatl: $1',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -659,7 +659,7 @@ $messages['uk'] = array(
 	'logentry-append' => 'Додати',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
