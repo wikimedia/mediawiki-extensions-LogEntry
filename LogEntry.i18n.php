@@ -517,7 +517,7 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'logentry-invalidpage' => 'ناسم مخ',
+	'logentry-invalidpage' => 'ناسم مخ: $1',
 );
 
 /** Portuguese (português)
