@@ -311,6 +311,7 @@ $messages['hsb'] = array(
 
 /** Hungarian (magyar)
  * @author Dani
+ * @author Dj
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -318,7 +319,7 @@ $messages['hu'] = array(
 	'logentry-parserhook-desc' => 'Ez a kiegészítő lehetővé teszi bejegyzések hozzáfűzését a naplófájlokhoz',
 	'logentry-specialpage-desc' => 'Ez a kiegészítő feldolgozza a naplófájlokhoz való hozzáfűzéseket',
 	'logentry' => 'Naplóbejegyzés',
-	'logentry-invalidpage' => 'Érvénytelen lap',
+	'logentry-invalidpage' => 'Érvénytelen lap: $1',
 	'logentry-invalidtoken' => 'Érvénytelen token',
 );
 
