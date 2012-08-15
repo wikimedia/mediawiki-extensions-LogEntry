@@ -49,7 +49,7 @@ $messages['ar'] = array(
 	'logentry-parserhook-desc' => 'امتداد الوسم هذا يوفر استمارة للإضافة/التخطيط لصفحات السجلات',
 	'logentry-specialpage-desc' => 'امتداد الوسم هذا يوفر معالجة للإضافة لصفحات السجلات',
 	'logentry' => 'مدخلة سجل',
-	'logentry-invalidpage' => 'صفحة خاطئة: $1',
+	'logentry-invalidpage' => 'صفحة غير صحيحة: $1',
 	'logentry-invalidtoken' => 'نص غير صحيح',
 );
 
@@ -379,6 +379,18 @@ $messages['ja'] = array(
  */
 $messages['km'] = array(
 	'logentry-invalidpage' => 'ទំព័រ​មិនត្រឹមត្រូវ',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'logentry-append' => '추가',
+	'logentry-parserhook-desc' => '이 태그 확장 기능은 기록 문서의 시작이나 끝에 항목을 추가하기 위한 양식을 제공합니다',
+	'logentry-specialpage-desc' => '이 태그 확장 기능은 기록 문서에 항목을 추가하는 과정을 제공합니다',
+	'logentry' => '기록항목',
+	'logentry-invalidpage' => '잘못된 문서: $1',
+	'logentry-invalidtoken' => '잘못된 토큰',
 );
 
 /** Colognian (Ripoarisch)
