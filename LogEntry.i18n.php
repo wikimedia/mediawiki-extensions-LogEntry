@@ -213,11 +213,12 @@ $messages['es'] = array(
 );
 
 /** Basque (euskara)
+ * @author An13sa
  * @author Kobazulo
  */
 $messages['eu'] = array(
 	'logentry-append' => 'Erantsi',
-	'logentry-invalidpage' => 'Baliogabeko orrialdea',
+	'logentry-invalidpage' => 'Baliogabeko orrialdea: $1',
 );
 
 /** Finnish (suomi)
