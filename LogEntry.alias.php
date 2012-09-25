@@ -128,7 +128,7 @@ $specialPageAliases['mt'] = array(
 	'LogEntry' => array( 'DaħlaReġistru' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'LogEntry' => array( 'Loggelement' ),
 );
