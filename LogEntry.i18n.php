@@ -84,7 +84,7 @@ $messages['bar'] = array(
 	'logentry-invalidpage' => 'Ungültige Seitn',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -447,7 +447,7 @@ $messages['nah'] = array(
 	'logentry-invalidpage' => 'Ahcualli āmatl: $1',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -471,7 +471,7 @@ $messages['nl'] = array(
 	'logentry-invalidtoken' => 'Ongeldig token',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -613,14 +613,14 @@ $messages['sq'] = array(
 	'logentry-invalidpage' => 'Faqe jovalide',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'logentry-append' => 'Додај',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $messages['sr-el'] = array(
 	'logentry-append' => 'Dodaj',
 );
@@ -721,7 +721,7 @@ $messages['yi'] = array(
 	'logentry-invalidtoken' => 'אומגילטיקער טאקן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Bencmq
  * @author Hydra
  */
@@ -732,7 +732,7 @@ $messages['zh-hans'] = array(
 	'logentry-invalidtoken' => '无效的标记',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
