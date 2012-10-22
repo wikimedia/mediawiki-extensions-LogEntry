@@ -35,7 +35,7 @@ $messages['qqq'] = array(
  */
 $messages['af'] = array(
 	'logentry-append' => 'Byvoeg',
-	'logentry-invalidpage' => 'Ongeldige bladsy',
+	'logentry-invalidpage' => 'Ongeldige bladsy', # Fuzzy
 	'logentry-invalidtoken' => 'Ongeldige token',
 );
 
@@ -61,7 +61,7 @@ $messages['arz'] = array(
 	'logentry-parserhook-desc' => 'امتداد الوسم هذا يوفر استمارة للإضافة/التخطيط لصفحات السجلات',
 	'logentry-specialpage-desc' => 'امتداد الوسم هذا يوفر معالجة للإضافة لصفحات السجلات',
 	'logentry' => 'مدخلة سجل',
-	'logentry-invalidpage' => 'صفحة غير صحيحة',
+	'logentry-invalidpage' => 'صفحة غير صحيحة', # Fuzzy
 	'logentry-invalidtoken' => 'نص غير صحيح',
 );
 
@@ -81,7 +81,7 @@ $messages['ast'] = array(
  * @author Man77
  */
 $messages['bar'] = array(
-	'logentry-invalidpage' => 'Ungültige Seitn',
+	'logentry-invalidpage' => 'Ungültige Seitn', # Fuzzy
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -101,7 +101,7 @@ $messages['be-tarask'] = array(
  * @author DCLXVI
  */
 $messages['bg'] = array(
-	'logentry-invalidpage' => 'Невалидна страница',
+	'logentry-invalidpage' => 'Невалидна страница', # Fuzzy
 );
 
 /** Bengali (বাংলা)
@@ -109,7 +109,7 @@ $messages['bg'] = array(
  */
 $messages['bn'] = array(
 	'logentry' => 'লগএন্ট্রি',
-	'logentry-invalidpage' => 'ত্রুটিপূর্ণ পাতা',
+	'logentry-invalidpage' => 'ত্রুটিপূর্ণ পাতা', # Fuzzy
 	'logentry-invalidtoken' => 'অবৈধ টোকেন',
 );
 
@@ -133,7 +133,7 @@ $messages['bs'] = array(
 	'logentry-parserhook-desc' => 'Ova oznaka proširenja omogućuje obrazac za dodavanje/uklanjanje informacija sa stranica zapisnika',
 	'logentry-specialpage-desc' => 'Ova oznaka proširenja omogućuje obradu neriješenih stranica zapisnika',
 	'logentry' => 'StavkaZapisa',
-	'logentry-invalidpage' => 'Nevaljana stranica',
+	'logentry-invalidpage' => 'Nevaljana stranica', # Fuzzy
 	'logentry-invalidtoken' => 'Nevaljan token',
 );
 
@@ -141,10 +141,11 @@ $messages['bs'] = array(
  * @author Paucabot
  */
 $messages['ca'] = array(
-	'logentry-invalidpage' => 'Pàgina no vàlida',
+	'logentry-invalidpage' => 'Pàgina no vàlida', # Fuzzy
 );
 
-/** Czech (česky) */
+/** Czech (česky)
+ */
 $messages['cs'] = array(
 	'logentry-append' => 'Přidat',
 	'logentry-invalidtoken' => 'Neplatný token',
@@ -182,7 +183,7 @@ $messages['dsb'] = array(
 $messages['el'] = array(
 	'logentry-append' => 'Προσάρτηση',
 	'logentry' => 'Αρχείο καταχωρήσεων',
-	'logentry-invalidpage' => 'Μη έγκυρη σελίδα',
+	'logentry-invalidpage' => 'Μη έγκυρη σελίδα', # Fuzzy
 	'logentry-invalidtoken' => 'Μή έγκυρο δείγμα',
 );
 
@@ -195,7 +196,7 @@ $messages['eo'] = array(
 	'logentry-parserhook-desc' => 'Ĉi tiu etikeda etendilo provizas paĝon por aldoni al la fino aux komenco de protokolaj paĝoj',
 	'logentry-specialpage-desc' => 'Ĉi tiu etikeda etendilo provizas procesado por aldonado al protokolaj paĝoj',
 	'logentry' => 'LogEntry',
-	'logentry-invalidpage' => 'Malvalida paĝo',
+	'logentry-invalidpage' => 'Malvalida paĝo', # Fuzzy
 	'logentry-invalidtoken' => 'Malvalida ĵetono',
 );
 
@@ -344,7 +345,7 @@ $messages['id'] = array(
 	'logentry-parserhook-desc' => 'Pengaya tag ini menyediakan sebuah formulir untuk menambahkan catatan ke halaman log',
 	'logentry-specialpage-desc' => 'Pengaya tag ini menyediakan proses untuk menambahkan catatan ke halaman log',
 	'logentry' => 'LogEntry',
-	'logentry-invalidpage' => 'Halaman tidak sah',
+	'logentry-invalidpage' => 'Halaman tidak sah', # Fuzzy
 	'logentry-invalidtoken' => 'Token tidak sah',
 );
 
@@ -379,7 +380,7 @@ $messages['ja'] = array(
  * @author Thearith
  */
 $messages['km'] = array(
-	'logentry-invalidpage' => 'ទំព័រ​មិនត្រឹមត្រូវ',
+	'logentry-invalidpage' => 'ទំព័រ​មិនត្រឹមត្រូវ', # Fuzzy
 );
 
 /** Korean (한국어)
@@ -455,7 +456,7 @@ $messages['nb'] = array(
 	'logentry-parserhook-desc' => 'Denne merkelapputvidelsen gir et skjema for å legge til merkelapper før eller etter på loggsider',
 	'logentry-specialpage-desc' => 'Denne merkelapputvidelsen tilbyr utførelse av å legge til merkelapper på loggsider',
 	'logentry' => 'Loggelement',
-	'logentry-invalidpage' => 'Ugyldig side',
+	'logentry-invalidpage' => 'Ugyldig side', # Fuzzy
 	'logentry-invalidtoken' => 'Ugyldig symbol',
 );
 
@@ -480,7 +481,7 @@ $messages['nn'] = array(
 	'logentry-parserhook-desc' => 'Denne merkeutvidinga gjev eit skjema for å leggja til element etter/føre på loggsider',
 	'logentry-specialpage-desc' => 'Denne merkeutvidinga gjev handsaming for leggja til element på loggsider',
 	'logentry' => 'Loggelement',
-	'logentry-invalidpage' => 'Ugyldig sida',
+	'logentry-invalidpage' => 'Ugyldig sida', # Fuzzy
 	'logentry-invalidtoken' => 'Ugyldig token',
 );
 
@@ -492,7 +493,7 @@ $messages['oc'] = array(
 	'logentry-parserhook-desc' => 'Aquesta extension de balisa apond una balisa que provesís un formulari per apondre / prefixar de tèxte a las paginas de jornals',
 	'logentry-specialpage-desc' => 'Aquesta extension de balisa apond un processús per apondre a las paginas de jornals',
 	'logentry' => 'Jornal de las entradas',
-	'logentry-invalidpage' => 'Pagina incorrècta',
+	'logentry-invalidpage' => 'Pagina incorrècta', # Fuzzy
 	'logentry-invalidtoken' => 'Presa incorrècta',
 );
 
@@ -556,7 +557,7 @@ $messages['pt-br'] = array(
 	'logentry-parserhook-desc' => 'Esta extensão de marca fornece uma forma de acrescentar dados ao início/fim de páginas de registro',
 	'logentry-specialpage-desc' => 'Esta extensão de marca fornece processamento para acrescentar dados a páginas de registro',
 	'logentry' => 'Entrada de Registro',
-	'logentry-invalidpage' => 'Página inválida',
+	'logentry-invalidpage' => 'Página inválida', # Fuzzy
 	'logentry-invalidtoken' => 'Token inválido',
 );
 
@@ -602,7 +603,7 @@ $messages['sk'] = array(
 	'logentry-parserhook-desc' => 'Toto rozšírenie poskytuje značku formulára na pridávanie k stránkam záznamov',
 	'logentry-specialpage-desc' => 'Toto rozšírenie poskytuje logiku pridávania k stránkam záznamov',
 	'logentry' => 'PoložkaZáznamu',
-	'logentry-invalidpage' => 'Neplatná stránka',
+	'logentry-invalidpage' => 'Neplatná stránka', # Fuzzy
 	'logentry-invalidtoken' => 'Neplatný token',
 );
 
@@ -610,7 +611,7 @@ $messages['sk'] = array(
  * @author Puntori
  */
 $messages['sq'] = array(
-	'logentry-invalidpage' => 'Faqe jovalide',
+	'logentry-invalidpage' => 'Faqe jovalide', # Fuzzy
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
@@ -620,7 +621,8 @@ $messages['sr-ec'] = array(
 	'logentry-append' => 'Додај',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'logentry-append' => 'Dodaj',
 );
@@ -651,7 +653,7 @@ $messages['ta'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'logentry-invalidpage' => 'చెల్లని పుట',
+	'logentry-invalidpage' => 'చెల్లని పుట', # Fuzzy
 );
 
 /** Tagalog (Tagalog)
@@ -709,7 +711,7 @@ $messages['vi'] = array(
  * @author Smeira
  */
 $messages['vo'] = array(
-	'logentry-invalidpage' => 'Pad no lonöföl',
+	'logentry-invalidpage' => 'Pad no lonöföl', # Fuzzy
 );
 
 /** Yiddish (ייִדיש)
@@ -741,4 +743,3 @@ $messages['zh-hant'] = array(
 	'logentry-invalidpage' => '無效頁面：$1',
 	'logentry-invalidtoken' => '無效的標記',
 );
-
