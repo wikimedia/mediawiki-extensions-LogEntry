@@ -88,6 +88,11 @@ $specialPageAliases['id'] = array(
 	'LogEntry' => array( 'Entri_catatan', 'EntriCatatan' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'LogEntry' => array( 'VoceDelRegistro' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'LogEntry' => array( '記録項目' ),
