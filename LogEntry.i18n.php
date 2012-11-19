@@ -456,7 +456,7 @@ $messages['nb'] = array(
 	'logentry-parserhook-desc' => 'Denne merkelapputvidelsen gir et skjema for å legge til merkelapper før eller etter på loggsider',
 	'logentry-specialpage-desc' => 'Denne merkelapputvidelsen tilbyr utførelse av å legge til merkelapper på loggsider',
 	'logentry' => 'Loggelement',
-	'logentry-invalidpage' => 'Ugyldig side', # Fuzzy
+	'logentry-invalidpage' => 'Ugyldig side: $1',
 	'logentry-invalidtoken' => 'Ugyldig symbol',
 );
 
