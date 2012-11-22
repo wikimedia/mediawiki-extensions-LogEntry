@@ -158,6 +158,11 @@ $specialPageAliases['sa'] = array(
 	'LogEntry' => array( 'अंकनप्रविष्टि' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'LogEntry' => array( 'VoceDelRegistro' ),
+);
+
 /** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'LogEntry' => array( 'PoložkaZáznamu' ),
