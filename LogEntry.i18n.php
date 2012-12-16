@@ -23,11 +23,12 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Bennylin
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
 	'logentry-append' => '{{Identical|Append}}',
-	'logentry-parserhook-desc' => '{{desc}}',
+	'logentry-parserhook-desc' => '{{desc|name=Log Entry|url=http://www.mediawiki.org/wiki/Extension:LogEntry}}',
 );
 
 /** Afrikaans (Afrikaans)
@@ -369,10 +370,10 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'logentry-append' => '追加',
-	'logentry-parserhook-desc' => 'このタグ拡張機能はログページの先頭または末尾に項目を追加するフォームを提供する',
-	'logentry-specialpage-desc' => 'このタグ拡張機能はログページに項目を追加する処理を提供する',
+	'logentry-parserhook-desc' => 'ログページの先頭または末尾に項目を追加するフォームを提供するタグ拡張機能',
+	'logentry-specialpage-desc' => 'ログページに項目を追加する処理を提供するタグ拡張機能',
 	'logentry' => 'ログ項目',
-	'logentry-invalidpage' => '無効なページ： $1',
+	'logentry-invalidpage' => '無効なページ: $1',
 	'logentry-invalidtoken' => '無効な字句',
 );
 
