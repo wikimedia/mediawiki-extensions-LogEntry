@@ -178,6 +178,11 @@ $specialPageAliases['tr'] = array(
 	'LogEntry' => array( 'GünlükGirdisi', 'KayıtGirdisi' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'LogEntry' => array( 'Mục_nhật_trình' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'LogEntry' => array( '日志项' ),
