@@ -563,11 +563,14 @@ $messages['pt-br'] = array(
 );
 
 /** Romanian (română)
+ * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
  */
 $messages['ro'] = array(
+	'logentry-append' => 'Adăugare',
 	'logentry-invalidpage' => 'Pagină nevalidă: $1',
+	'logentry-invalidtoken' => 'Jeton nevalid',
 );
 
 /** tarandíne (tarandíne)
