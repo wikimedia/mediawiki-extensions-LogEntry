@@ -441,6 +441,15 @@ $messages['ms'] = array(
 	'logentry-invalidtoken' => 'Token tidak sah',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'logentry-append' => 'Żid',
+	'logentry' => 'LogEntry',
+	'logentry-invalidpage' => 'Paġna invalida: $1',
+);
+
 /** Nahuatl (Nāhuatl)
  * @author Fluence
  * @author Ricardo gs
