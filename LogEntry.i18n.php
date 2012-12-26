@@ -608,6 +608,16 @@ $messages['ru'] = array(
 	'logentry-invalidtoken' => 'Неправильный токен',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'logentry-append' => 'අමුණන්න',
+	'logentry' => 'ලඝුඇතුල්කිරීම්',
+	'logentry-invalidpage' => 'වලංගු නොවන පිටුව: $1',
+	'logentry-invalidtoken' => 'වලංගු නොවන ටෝකනය',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
@@ -657,8 +667,11 @@ $messages['sv'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Shanmugamp7
  */
 $messages['ta'] = array(
+	'logentry-append' => 'கடையிணைப்பு',
+	'logentry' => 'பதிகை உள்ளீடு',
 	'logentry-invalidpage' => 'செல்லாத பக்கம்: $1',
 );
 
