@@ -187,3 +187,8 @@ $specialPageAliases['vi'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'LogEntry' => array( '日志项' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'LogEntry' => array( '日誌項' ),
+);
