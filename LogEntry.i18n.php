@@ -146,9 +146,12 @@ $messages['ca'] = array(
 );
 
 /** Czech (česky)
+ * @author Vks
  */
 $messages['cs'] = array(
 	'logentry-append' => 'Přidat',
+	'logentry' => 'ŽurnálovýZáznam',
+	'logentry-invalidpage' => 'Neplatná stránka: $1.',
 	'logentry-invalidtoken' => 'Neplatný token',
 );
 
