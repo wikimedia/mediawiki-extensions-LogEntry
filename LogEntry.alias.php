@@ -138,7 +138,7 @@ $specialPageAliases['nb'] = array(
 	'LogEntry' => array( 'Loggelement' ),
 );
 
-/** Nedersaksies (Nedersaksies) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'LogEntry' => array( 'Logboekregel' ),
 );
