@@ -382,9 +382,10 @@ $messages['ja'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author Thearith
+ * @author គីមស៊្រុន
  */
 $messages['km'] = array(
-	'logentry-invalidpage' => 'ទំព័រ​មិនត្រឹមត្រូវ', # Fuzzy
+	'logentry-invalidpage' => 'ទំព័រ​មិនត្រឹមត្រូវ៖ $1',
 );
 
 /** Korean (한국어)
