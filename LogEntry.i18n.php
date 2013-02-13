@@ -380,6 +380,16 @@ $messages['ja'] = array(
 	'logentry-invalidtoken' => '無効な字句',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'logentry-append' => 'დამატება',
+	'logentry' => 'ჟურნალის ჩანაწერი',
+	'logentry-invalidpage' => 'არასწორი გვერდი: $1',
+	'logentry-invalidtoken' => 'არასწორი ჟეტონი',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Thearith
  * @author គីមស៊្រុន
