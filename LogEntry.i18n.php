@@ -29,6 +29,8 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'logentry-append' => '{{Identical|Append}}',
 	'logentry-parserhook-desc' => '{{desc|name=Log Entry|url=http://www.mediawiki.org/wiki/Extension:LogEntry}}',
+	'logentry-invalidpage' => 'Used as alert message. Parameters:
+* $1 - page title. But if the form was not submitted, $1 is undefined...',
 );
 
 /** Afrikaans (Afrikaans)
