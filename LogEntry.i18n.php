@@ -29,8 +29,10 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'logentry-append' => '{{Identical|Append}}',
 	'logentry-parserhook-desc' => '{{desc|name=Log Entry|url=http://www.mediawiki.org/wiki/Extension:LogEntry}}',
+	'logentry' => '{{doc-special|LogEntry|unlisted=1}}',
 	'logentry-invalidpage' => 'Used as alert message. Parameters:
 * $1 - page title. But if the form was not submitted, $1 is undefined...',
+	'logentry-invalidtoken' => 'Used as alert when the Edit Token is invalid.',
 );
 
 /** Afrikaans (Afrikaans)
@@ -379,7 +381,7 @@ $messages['ja'] = array(
 	'logentry-specialpage-desc' => 'ログページに項目を追加する処理を提供するタグ拡張機能',
 	'logentry' => 'ログ項目',
 	'logentry-invalidpage' => '無効なページ: $1',
-	'logentry-invalidtoken' => '無効な字句',
+	'logentry-invalidtoken' => 'トークンが無効です',
 );
 
 /** Georgian (ქართული)
