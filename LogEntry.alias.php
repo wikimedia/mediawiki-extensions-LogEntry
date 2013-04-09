@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'LogEntry' => array( 'مدخلة_سجل' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'LogEntry' => array( 'অভিলেখ_ভৰ্ত্তি' ),
 );
