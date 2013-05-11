@@ -579,13 +579,14 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
+ * @author Luckas
  */
 $messages['pt-br'] = array(
 	'logentry-append' => 'Acrescentar',
 	'logentry-parserhook-desc' => 'Esta extensão de marca fornece uma forma de acrescentar dados ao início/fim de páginas de registro',
 	'logentry-specialpage-desc' => 'Esta extensão de marca fornece processamento para acrescentar dados a páginas de registro',
 	'logentry' => 'Entrada de Registro',
-	'logentry-invalidpage' => 'Página inválida', # Fuzzy
+	'logentry-invalidpage' => 'Página inválida: $1',
 	'logentry-invalidtoken' => 'Token inválido',
 );
 
