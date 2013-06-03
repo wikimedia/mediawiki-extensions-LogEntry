@@ -476,7 +476,7 @@ $messages['nah'] = array(
 	'logentry-invalidpage' => 'Ahcualli āmatl: $1',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -500,7 +500,7 @@ $messages['nl'] = array(
 	'logentry-invalidtoken' => 'Ongeldig token',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
