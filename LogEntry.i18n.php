@@ -789,10 +789,13 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
 	'logentry-append' => '追加',
+	'logentry-parserhook-desc' => '此標籤擴展提供一個表單以添加或追加内容到日志頁面',
+	'logentry-specialpage-desc' => '此標籤擴展提供了添加内容到日志頁面的程式步驟',
 	'logentry' => '日誌條目',
 	'logentry-invalidpage' => '無效頁面：$1',
 	'logentry-invalidtoken' => '無效的標記',
