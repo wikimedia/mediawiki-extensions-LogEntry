@@ -525,6 +525,16 @@ $messages['oc'] = array(
 	'logentry-invalidtoken' => 'Presa incorrècta',
 );
 
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author Babanwalia
+ */
+$messages['pa'] = array(
+	'logentry-append' => 'ਰਲਾਓ',
+	'logentry' => 'ਦਾਖ਼ਲਾ ਇੰਦਰਾਜ',
+	'logentry-invalidpage' => 'ਗ਼ਲਤ ਸਫ਼ਾ: $1',
+	'logentry-invalidtoken' => 'ਗ਼ਲਤ ਟੋਕਨ',
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
