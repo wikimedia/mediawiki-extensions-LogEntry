@@ -149,6 +149,13 @@ $messages['ca'] = array(
 	'logentry-invalidpage' => 'Pàgina no vàlida', # Fuzzy
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'logentry-append' => 'ТӀетоха',
+);
+
 /** Czech (česky)
  * @author Vks
  */
