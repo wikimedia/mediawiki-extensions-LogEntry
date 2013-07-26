@@ -451,7 +451,7 @@ $messages['mk'] = array(
 	'logentry-specialpage-desc' => 'Оваа ознака-додаток овозможува обработка за придодавање на дневнички страници',
 	'logentry' => 'СтавкаВоДневникот',
 	'logentry-invalidpage' => 'Неважечка страница: $1',
-	'logentry-invalidtoken' => 'Неправилен жетон',
+	'logentry-invalidtoken' => 'Неисправна шифра',
 );
 
 /** Malay (Bahasa Melayu)
