@@ -110,11 +110,12 @@ $messages['bg'] = array(
 );
 
 /** Bengali (বাংলা)
+ * @author Aftab1995
  * @author Wikitanvir
  */
 $messages['bn'] = array(
 	'logentry' => 'লগএন্ট্রি',
-	'logentry-invalidpage' => 'ত্রুটিপূর্ণ পাতা', # Fuzzy
+	'logentry-invalidpage' => 'ত্রুটিপূর্ণ পাতা: $1',
 	'logentry-invalidtoken' => 'অবৈধ টোকেন',
 );
 
