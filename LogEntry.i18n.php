@@ -144,10 +144,11 @@ $messages['bs'] = array(
 );
 
 /** Catalan (català)
+ * @author Alvaro Vidal-Abarca
  * @author Paucabot
  */
 $messages['ca'] = array(
-	'logentry-invalidpage' => 'Pàgina no vàlida', # Fuzzy
+	'logentry-invalidpage' => 'Pàgina no vàlida: $1',
 );
 
 /** Chechen (нохчийн)
