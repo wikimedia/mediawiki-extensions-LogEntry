@@ -158,7 +158,7 @@ $messages['ce'] = array(
 	'logentry-append' => 'ТӀетоха',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
