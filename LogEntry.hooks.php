@@ -34,7 +34,7 @@ class LogEntryHooks {
 				'id' => 'logentryform',
 				'name' => 'logentryform',
 				'method' => 'post',
-				'action' => SpecialPage::getTitleFor( 'LogEntry' )->escapeLocalURL(),
+				'action' => htmlspecialchars( SpecialPage::getTitleFor( 'LogEntry' )->getLocalURL() ),
 				'enctype' => 'multipart/form-data'
 			)
 		);
