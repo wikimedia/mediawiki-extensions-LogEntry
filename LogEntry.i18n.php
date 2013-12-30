@@ -239,6 +239,13 @@ $messages['eu'] = array(
 	'logentry-invalidpage' => 'Baliogabeko orrialdea: $1',
 );
 
+/** Persian (فارسی)
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'logentry-append' => 'الحاق',
+);
+
 /** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
