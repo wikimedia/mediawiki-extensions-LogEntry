@@ -205,6 +205,7 @@ $messages['el'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author KuboF
  * @author Melancholie
  * @author Yekrats
  */
@@ -213,7 +214,7 @@ $messages['eo'] = array(
 	'logentry-parserhook-desc' => 'Ĉi tiu etikeda etendilo provizas paĝon por aldoni al la fino aux komenco de protokolaj paĝoj',
 	'logentry-specialpage-desc' => 'Ĉi tiu etikeda etendilo provizas procesado por aldonado al protokolaj paĝoj',
 	'logentry' => 'LogEntry',
-	'logentry-invalidpage' => 'Malvalida paĝo', # Fuzzy
+	'logentry-invalidpage' => 'Malvalida paĝo: $1',
 	'logentry-invalidtoken' => 'Malvalida ĵetono',
 );
 
@@ -724,7 +725,7 @@ $messages['ta'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
-	'logentry-invalidpage' => 'చెల్లని పుట', # Fuzzy
+	'logentry-invalidpage' => 'చెల్లని పుట: $1',
 );
 
 /** Tagalog (Tagalog)
