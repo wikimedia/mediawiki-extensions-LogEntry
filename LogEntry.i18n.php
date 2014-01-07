@@ -241,10 +241,14 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Reza1615
  */
 $messages['fa'] = array(
 	'logentry-append' => 'الحاق',
+	'logentry' => 'ورود سیاهه',
+	'logentry-invalidpage' => 'صفحهٔ نامعتبر: $1',
+	'logentry-invalidtoken' => 'نماد نامعتبر',
 );
 
 /** Finnish (suomi)
