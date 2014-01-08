@@ -10,24 +10,24 @@
 class LogEntryHooks {
 
 	/* Functions */
-	
+
 	// Initialization
 	public static function register( &$parser ) {
 		// Register the hook with the parser
 		$parser->setHook( 'logentry', 'LogEntryHooks::render' );
-		
+
 		// Continue
 		return true;
 	}
-	
+
 	// Render the entry form
 	public static function render( $input, $args, &$parser ) {
 		global $wgUser;
 		global $egLogEntryMultiLine, $egLogEntryMultiLineRows;
-		
+
 		// Don't cache since we are passing the token in the form
 		$parser->disableCache();
-		
+
 		// Build HTML
 		$htmlResult = Xml::openElement( 'form',
 			array(
@@ -85,11 +85,11 @@ class LogEntryHooks {
 			array(
 				'type' => 'hidden',
 				'name' => 'token',
-				'value' => $wgUser->editToken()
+				'value' => $wgUser->getEditToken()
 			)
 		);
 		$htmlResult .= Xml::closeElement( 'form' );
-		
+
 		// Return HTML output
 		return $htmlResult;
 	}
