@@ -246,6 +246,8 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'logentry-append' => 'الحاق',
+	'logentry-parserhook-desc' => 'گسترهٔ برچسب یک فرم برای فرمان/منع به ورود صفحات',
+	'logentry-specialpage-desc' => 'این گسترهٔ برچسب روند برای فرمان به ورود صفحات ارائه می‌کند',
 	'logentry' => 'ورود سیاهه',
 	'logentry-invalidpage' => 'صفحهٔ نامعتبر: $1',
 	'logentry-invalidtoken' => 'نماد نامعتبر',
