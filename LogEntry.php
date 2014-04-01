@@ -4,7 +4,7 @@
  *
  * @file
  * @ingroup Extensions
- * 
+ *
  * This file contains the main include file for the LogEntry extension of
  * MediaWiki.
  *
@@ -13,7 +13,6 @@
  *
  * @author Trevor Parscal <tparscal@wikimedia.org>
  * @license GPL v2
- * @version 0.1.0
  */
 
 // Check environment
@@ -28,8 +27,8 @@ if( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'LogEntry',
-	'author'         => 'Trevor Parscal', 
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:LogEntry', 
+	'author'         => 'Trevor Parscal',
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:LogEntry',
 	'descriptionmsg' => 'logentry-parserhook-desc',
 );
 
@@ -49,6 +48,7 @@ $egLogEntryMultiLineRows = 3;
 $dir = dirname( __FILE__ ) . '/';
 
 // Internationalization
+$wgMessagesDirs['LogEntry'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['LogEntry'] = $dir . 'LogEntry.i18n.php';
 $wgExtensionMessagesFiles['LogEntryAlias'] = $dir . 'LogEntry.alias.php';
 
