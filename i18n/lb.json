@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Robby"
-        ]
-    },
-    "logentry-append": "Derbäisetzen",
-    "logentry": "Androung an e Logbuch",
-    "logentry-invalidpage": "Net valabel Säit: $1"
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"logentry-append": "Derbäisetzen",
+	"logentry": "Androung an e Logbuch",
+	"logentry-invalidpage": "Net valabel Säit: $1"
 }

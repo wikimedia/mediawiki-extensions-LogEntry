@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Aftab1995",
-            "Wikitanvir"
-        ]
-    },
-    "logentry": "লগএন্ট্রি",
-    "logentry-invalidpage": "ত্রুটিপূর্ণ পাতা: $1",
-    "logentry-invalidtoken": "অবৈধ টোকেন"
+	"@metadata": {
+		"authors": [
+			"Aftab1995",
+			"Wikitanvir"
+		]
+	},
+	"logentry": "লগএন্ট্রি",
+	"logentry-invalidpage": "ত্রুটিপূর্ণ পাতা: $1",
+	"logentry-invalidtoken": "অবৈধ টোকেন"
 }

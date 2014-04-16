@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armando-Martin",
-            "Crazymadlover"
-        ]
-    },
-    "logentry-append": "Apéndice",
-    "logentry-parserhook-desc": "Esta extensión de etiqueta provee un formulario para añadir/preprocesar a páginas de registro",
-    "logentry-specialpage-desc": "Esta extensión de etiqueta provee un proceso para añadir a páginas de registro",
-    "logentry": "LogEntry",
-    "logentry-invalidpage": "Página inválida: $1",
-    "logentry-invalidtoken": "Ficha inválida"
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Crazymadlover"
+		]
+	},
+	"logentry-append": "Apéndice",
+	"logentry-parserhook-desc": "Esta extensión de etiqueta provee un formulario para añadir/preprocesar a páginas de registro",
+	"logentry-specialpage-desc": "Esta extensión de etiqueta provee un proceso para añadir a páginas de registro",
+	"logentry": "LogEntry",
+	"logentry-invalidpage": "Página inválida: $1",
+	"logentry-invalidtoken": "Ficha inválida"
 }

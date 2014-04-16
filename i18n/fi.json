@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cimon Avaro",
-            "Crt",
-            "Str4nd",
-            "Vililikku"
-        ]
-    },
-    "logentry-append": "Lisää",
-    "logentry-parserhook-desc": "Tämä merkintälaajennus tarjoaa lomakkeen, jonka avulla voidaan lisätä tekstiä lokisivujen alkuun tai loppuun.",
-    "logentry-invalidpage": "Virheellinen sivu: $1",
-    "logentry-invalidtoken": "Virheellinen lipuke"
+	"@metadata": {
+		"authors": [
+			"Cimon Avaro",
+			"Crt",
+			"Str4nd",
+			"Vililikku"
+		]
+	},
+	"logentry-append": "Lisää",
+	"logentry-parserhook-desc": "Tämä merkintälaajennus tarjoaa lomakkeen, jonka avulla voidaan lisätä tekstiä lokisivujen alkuun tai loppuun.",
+	"logentry-invalidpage": "Virheellinen sivu: $1",
+	"logentry-invalidtoken": "Virheellinen lipuke"
 }

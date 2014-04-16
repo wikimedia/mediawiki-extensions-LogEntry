@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Helix84"
-        ]
-    },
-    "logentry-append": "Pridať",
-    "logentry-parserhook-desc": "Toto rozšírenie poskytuje značku formulára na pridávanie k stránkam záznamov",
-    "logentry-specialpage-desc": "Toto rozšírenie poskytuje logiku pridávania k stránkam záznamov",
-    "logentry": "PoložkaZáznamu",
-    "logentry-invalidpage": "Neplatná stránka",
-    "logentry-invalidtoken": "Neplatný token"
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"logentry-append": "Pridať",
+	"logentry-parserhook-desc": "Toto rozšírenie poskytuje značku formulára na pridávanie k stránkam záznamov",
+	"logentry-specialpage-desc": "Toto rozšírenie poskytuje logiku pridávania k stránkam záznamov",
+	"logentry": "PoložkaZáznamu",
+	"logentry-invalidpage": "Neplatná stránka",
+	"logentry-invalidtoken": "Neplatný token"
 }
