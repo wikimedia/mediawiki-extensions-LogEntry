@@ -29,6 +29,11 @@ $specialPageAliases['as'] = array(
 	'LogEntry' => array( 'অভিলেখ_ভৰ্ত্তি' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'LogEntry' => array( 'سیاهه_ئی_مدخل' ),
+);
+
 /** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'LogEntry' => array( 'UnosZapisa' ),
