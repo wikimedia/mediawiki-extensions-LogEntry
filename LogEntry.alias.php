@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'LogEntry' => array( 'مدخلة_سجل' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'LogEntry' => array( 'مدخلة_سجل' ),
 );
