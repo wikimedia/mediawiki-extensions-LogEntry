@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"Glavkos"
 		]
 	},
 	"logentry-append": "Προσάρτηση",
 	"logentry": "Αρχείο καταχωρήσεων",
-	"logentry-invalidpage": "Μη έγκυρη σελίδα",
+	"logentry-invalidpage": "Μη έγκυρη σελίδα: $1",
 	"logentry-invalidtoken": "Μή έγκυρο δείγμα"
 }
