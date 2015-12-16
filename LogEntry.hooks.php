@@ -54,7 +54,7 @@ class LogEntryHooks {
 					array(
 						'type' => 'submit',
 						'name' => 'append',
-						'value' => wfMsg( 'logentry-append' )
+						'value' => wfMessage( 'logentry-append' )->text()
 					)
 				)
 			);
@@ -70,7 +70,7 @@ class LogEntryHooks {
 				array(
 					'type' => 'submit',
 					'name' => 'append',
-					'value' => wfMsg( 'logentry-append' )
+					'value' => wfMessage( 'logentry-append' )->text()
 				)
 			);
 		}

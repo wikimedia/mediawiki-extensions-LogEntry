@@ -35,7 +35,7 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 			
 			// Get page
 			$page = $wgRequest->getText('page');
-			
+
 			// Get title
 			$title = Title::newFromText( $page );
 			
@@ -53,9 +53,9 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 				if ( $egLogEntryTimeStamp ) {
 					$newLine .= ' ' . gmdate( 'H:i' );
 				}
-				$newLine .= wfMsgForContent( 'colon-separator' ) . str_replace( "\n", '<br />',
-					trim( htmlspecialchars( $wgRequest->getText( 'line' ) ) )
-				);
+				$newLine .= $this->msg( 'colon-separator' )->inContentLanguage()->text() .
+						str_replace( "\n", '<br />',
+						trim( htmlspecialchars( $wgRequest->getText( 'line' ) ) ) );
 				
 				// Get content without logentry tag in it
 				$content = $article->getContent();
@@ -89,7 +89,7 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 					
 					// Output Lines
 					$outputLines = array(); 
-					
+
 					if( trim( $contentLines[$sectionLine] ) == $heading ) {
 						// Top section is current
 						$outputLines = array_merge(
