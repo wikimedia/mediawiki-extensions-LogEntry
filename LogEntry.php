@@ -30,6 +30,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'author'         => 'Trevor Parscal',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:LogEntry',
 	'descriptionmsg' => 'logentry-parserhook-desc',
+	'license-name'   => 'GPL-2.0',
 );
 
 // Show TimeStamp == true, No TimeStamp == false
