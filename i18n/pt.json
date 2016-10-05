@@ -11,5 +11,5 @@
 	"logentry-specialpage-desc": "Esta extensão de elementos HTML fornece um processo para acrescentar dados no fundo das páginas dos registos",
 	"logentry": "Entrada de Registo",
 	"logentry-invalidpage": "Página inválida: $1",
-	"logentry-invalidtoken": "Token inválido"
+	"logentry-invalidtoken": "Chave inválida"
 }
