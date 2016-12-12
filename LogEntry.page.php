@@ -8,21 +8,21 @@
 
 // LogEntry special page
 class SpecialLogEntry extends UnlistedSpecialPage {
-	
+
 	/* Functions */
-	
+
 	public function __construct() {
 		// Register the special page as unlisted
 		parent::__construct( 'LogEntry' );
 	}
-	
+
 	public function execute( $par ) {
 		global $wgRequest, $wgOut, $wgUser;
 		global $egLogEntryUserName, $egLogEntryTimeStamp;
-		
+
 		// Begin output
 		$this->setHeaders();
-		
+
 		// Check that the form was submitted
 		if( $wgRequest->wasPosted() ) {
 			// Check token
@@ -32,19 +32,19 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 				$wgOut->addWikiMsg( 'logentry-invalidtoken' );
 				return;
 			}
-			
+
 			// Get page
 			$page = $wgRequest->getText('page');
 
 			// Get title
 			$title = Title::newFromText( $page );
-			
+
 			// Check permissions
 			if( $title && $title->userCan( 'edit' ) )
 			{
 				// Get article
 				$article = new Article( $title, 0 );
-				
+
 				// Build new line
 				$newLine = '*';
 				if ( $egLogEntryUserName ) {
@@ -56,16 +56,17 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 				$newLine .= $this->msg( 'colon-separator' )->inContentLanguage()->text() .
 						str_replace( "\n", '<br />',
 						trim( htmlspecialchars( $wgRequest->getText( 'line' ) ) ) );
-				
+
 				// Get content without logentry tag in it
-				$content = $article->getContent();
-				
+				$contentObj = $article->getContentObject();
+				$content = ContentHandler::getContentText( $contentObj );
+
 				// Detect section date
 				$contentLines = explode( "\n", $content );
-				
+
 				// Build heading
 				$heading = sprintf( '== %s ==', gmdate( 'F j' ) );
-				
+
 				// Find line of first section
 				$sectionLine = false;
 				foreach( $contentLines as $i => $contentLine )
@@ -76,19 +77,19 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 						break;
 					}
 				}
-				
+
 				// Assemble final output
 				$output = '';
 				if( $sectionLine !== false )
 				{
 					// Lines up to section
 					$preLines = array_slice( $contentLines, 0, $sectionLine );
-					
+
 					// Lines after section
 					$postLines = array_slice( $contentLines, $sectionLine + 1 );
-					
+
 					// Output Lines
-					$outputLines = array(); 
+					$outputLines = array();
 
 					if( trim( $contentLines[$sectionLine] ) == $heading ) {
 						// Top section is current
@@ -121,10 +122,10 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 					// There is no section, make one
 					$output = sprintf( "%s\n%s\n%s", $content, $heading, $newLine );
 				}
-				
+
 				// Edit article
 				$article->quickEdit( $output );
-				
+
 				// Redirect
 				$wgOut->redirect( $title->getPrefixedURL() );
 			}
