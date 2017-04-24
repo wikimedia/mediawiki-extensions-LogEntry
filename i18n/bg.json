@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"StanProg"
 		]
 	},
-	"logentry-invalidpage": "Невалидна страница"
+	"logentry-invalidpage": "Невалидна страница: $1"
 }
