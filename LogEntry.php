@@ -15,49 +15,16 @@
  * @license GPL v2
  */
 
-// Check environment
-if( !defined( 'MEDIAWIKI' ) ) {
-    echo( "This is an extension to the MediaWiki package and cannot be run standalone.\n" );
-    die( -1 );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'LogEntry' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['LogEntry'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the LogEntry extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the LogEntry extension requires MediaWiki 1.29+' );
 }
-
-/* Configuration */
-
-// Credits
-$wgExtensionCredits['parserhook'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'LogEntry',
-	'author'         => 'Trevor Parscal',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:LogEntry',
-	'descriptionmsg' => 'logentry-parserhook-desc',
-	'license-name'   => 'GPL-2.0',
-);
-
-// Show TimeStamp == true, No TimeStamp == false
-$egLogEntryTimeStamp = true;
-
-// Show UserName == true, No UserName == false
-$egLogEntryUserName = true;
-
-// Use MultiLine == true, Use SingleLine == false
-$egLogEntryMultiLine = false;
-
-// Number of rows if MultiLine is enabled
-$egLogEntryMultiLineRows = 3;
-
-// Shortcut to this extension directory
-$dir = dirname( __FILE__ ) . '/';
-
-// Internationalization
-$wgMessagesDirs['LogEntry'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['LogEntryAlias'] = $dir . 'LogEntry.alias.php';
-
-// Register auto load for the special page class
-$wgAutoloadClasses['LogEntryHooks'] = $dir . 'LogEntry.hooks.php';
-$wgAutoloadClasses['SpecialLogEntry'] = $dir . 'LogEntry.page.php';
-
-// Register parser hook
-$wgHooks['ParserFirstCallInit'][] = 'LogEntryHooks::register';
-
-// Register the LogEntry special page
-$wgSpecialPages['LogEntry'] = 'SpecialLogEntry';
