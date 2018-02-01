@@ -3,7 +3,7 @@
 	"author": "Trevor Parscal",
 	"url": "https://www.mediawiki.org/wiki/Extension:LogEntry",
 	"descriptionmsg": "logentry-parserhook-desc",
-	"license-name": "GPL-2.0",
+	"license-name": "GPL-2.0-only",
 	"type": "parserhook",
 	"SpecialPages": {
 		"LogEntry": "SpecialLogEntry"
