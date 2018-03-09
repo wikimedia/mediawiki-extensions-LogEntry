@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Les Meloures"
 		]
 	},
-	"logentry-append": "Dobäisetzen",
+	"logentry-append": "Derbäisetzen",
 	"logentry": "Androung an e Logbuch",
 	"logentry-invalidpage": "Net valabel Säit: $1"
 }
