@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Armando-Martin",
-			"Crazymadlover"
+			"Crazymadlover",
+			"Fitoschido"
 		]
 	},
 	"logentry-append": "Apéndice",
@@ -10,5 +11,5 @@
 	"logentry-specialpage-desc": "Esta extensión de etiqueta provee un proceso para añadir a páginas de registro",
 	"logentry": "LogEntry",
 	"logentry-invalidpage": "Página inválida: $1",
-	"logentry-invalidtoken": "Ficha inválida"
+	"logentry-invalidtoken": "La ficha no es válida"
 }
