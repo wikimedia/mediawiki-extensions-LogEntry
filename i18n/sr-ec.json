@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"BadDog"
 		]
 	},
-	"logentry-append": "Додај"
+	"logentry-append": "Додај",
+	"logentry-invalidpage": "Неважећа страница: $1"
 }
