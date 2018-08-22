@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vito Genovese"
+			"Vito Genovese",
+			"Hedda"
 		]
 	},
-	"logentry": "KayıtGirdisi"
+	"logentry-append": "Ekle",
+	"logentry-parserhook-desc": "Bu etiket uzantısı, sayfaların eklenmesi/doldurulması için bir form sunar",
+	"logentry-specialpage-desc": "Bu etiket uzantısı, günlük sayfalarına eklemek için işlem sağlar",
+	"logentry": "KayıtGirdisi",
+	"logentry-invalidpage": "Geçersiz sayfa: $1",
+	"logentry-invalidtoken": "Geçersiz anahtar"
 }
