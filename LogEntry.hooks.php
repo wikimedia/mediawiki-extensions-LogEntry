@@ -25,7 +25,7 @@ class LogEntryHooks {
 		global $egLogEntryMultiLine, $egLogEntryMultiLineRows;
 
 		// Don't cache since we are passing the token in the form
-		$parser->disableCache();
+		$parser->getOutput()->updateCacheExpiry( 0 );
 
 		// Build HTML
 		$htmlResult = Xml::openElement( 'form',
