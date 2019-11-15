@@ -9,5 +9,5 @@
 	"logentry-specialpage-desc": "Iste extension adde un etiquetta que provide de processamento pro adjunger texto a paginas de registro",
 	"logentry": "Entrata in registro",
 	"logentry-invalidpage": "Pagina invalide: $1",
-	"logentry-invalidtoken": "Indicio invalide"
+	"logentry-invalidtoken": "Token invalide"
 }
