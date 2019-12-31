@@ -22,7 +22,6 @@ class LogEntryHooks {
 
 	// Render the entry form
 	public static function render( $input, $args, $parser ) {
-		global $wgUser;
 		global $egLogEntryMultiLine, $egLogEntryMultiLineRows;
 
 		// Don't cache since we are passing the token in the form
@@ -85,7 +84,7 @@ class LogEntryHooks {
 			array(
 				'type' => 'hidden',
 				'name' => 'token',
-				'value' => $wgUser->getEditToken()
+				'value' => $parser->getUser()->getEditToken()
 			)
 		);
 		$htmlResult .= Xml::closeElement( 'form' );

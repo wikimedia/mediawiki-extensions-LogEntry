@@ -17,7 +17,7 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 	}
 
 	public function execute( $par ) {
-		global $wgRequest, $wgOut, $wgUser;
+		global $wgRequest, $wgOut;
 		global $egLogEntryUserName, $egLogEntryTimeStamp;
 
 		// Begin output
@@ -26,7 +26,7 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 		// Check that the form was submitted
 		if( $wgRequest->wasPosted() ) {
 			// Check token
-			if( !$wgUser->matchEditToken( $wgRequest->getText('token') ) )
+			if( !$this->getUser()->matchEditToken( $wgRequest->getText('token') ) )
 			{
 				// Alert of invalid page
 				$wgOut->addWikiMsg( 'logentry-invalidtoken' );
@@ -48,7 +48,7 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 				// Build new line
 				$newLine = '*';
 				if ( $egLogEntryUserName ) {
-					$newLine .= ' ' . $wgUser->getName();
+					$newLine .= ' ' . $this->getUser()->getName();
 				}
 				if ( $egLogEntryTimeStamp ) {
 					$newLine .= ' ' . gmdate( 'H:i' );
