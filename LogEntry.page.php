@@ -23,6 +23,9 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 		// Begin output
 		$this->setHeaders();
 
+		// Get page
+		$page = $wgRequest->getText('page');
+
 		// Check that the form was submitted
 		if( $wgRequest->wasPosted() ) {
 			// Check token
@@ -32,9 +35,6 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 				$wgOut->addWikiMsg( 'logentry-invalidtoken' );
 				return;
 			}
-
-			// Get page
-			$page = $wgRequest->getText('page');
 
 			// Get title
 			$title = Title::newFromText( $page );
