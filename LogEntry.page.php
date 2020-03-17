@@ -39,8 +39,25 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 			// Get title
 			$title = Title::newFromText( $page );
 
+			$userCan = false;
+
 			// Check permissions
-			if( $title && $title->userCan( 'edit' ) )
+			if( $title )
+			{
+				if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) )
+				{
+					// MW 1.33+
+					$userCan = MediaWikiServices::getInstance()
+						->getPermissionManagar()
+						->userCan( 'edit', $this->getUser(), $title );
+				}
+				else
+				{
+					$userCan = $title->userCan( 'edit' );
+				}
+			}
+
+			if ( $userCan )
 			{
 				// Get article
 				$article = new Article( $title, 0 );
