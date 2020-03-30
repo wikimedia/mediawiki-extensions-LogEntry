@@ -20,8 +20,8 @@
 		"LogEntryAlias": "LogEntry.alias.php"
 	},
 	"AutoloadClasses": {
-		"LogEntryHooks": "LogEntry.hooks.php",
-		"SpecialLogEntry": "LogEntry.page.php"
+		"LogEntryHooks": "includes/LogEntryHooks.php",
+		"SpecialLogEntry": "includes/specials/SpecialLogEntry.php"
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "LogEntryHooks::register"
