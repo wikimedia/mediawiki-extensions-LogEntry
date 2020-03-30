@@ -6,90 +6,88 @@
  * @ingroup Extensions
  */
 
-// LogEntry hooks
 class LogEntryHooks {
 
-	/* Functions */
-
-	// Initialization
+	/**
+	 * @param Parser $parser
+	 */
 	public static function register( $parser ) {
-		// Register the hook with the parser
-		$parser->setHook( 'logentry', 'LogEntryHooks::render' );
-
-		// Continue
-		return true;
+		$parser->setHook( 'logentry', [ __CLASS__, 'render' ] );
 	}
 
-	// Render the entry form
+	/**
+	 * @param string $input
+	 * @param array $args
+	 * @param Parser $parser
+	 * @return string
+	 */
 	public static function render( $input, $args, $parser ) {
 		global $egLogEntryMultiLine, $egLogEntryMultiLineRows;
 
 		// Don't cache since we are passing the token in the form
 		$parser->getOutput()->updateCacheExpiry( 0 );
 
-		// Build HTML
 		$htmlResult = Xml::openElement( 'form',
-			array(
+			[
 				'id' => 'logentryform',
 				'name' => 'logentryform',
 				'method' => 'post',
 				'action' => htmlspecialchars( SpecialPage::getTitleFor( 'LogEntry' )->getLocalURL() ),
 				'enctype' => 'multipart/form-data'
-			)
+			]
 		);
 		if ( $egLogEntryMultiLine ) {
 			$htmlResult .= Xml::element( 'textarea',
-				array(
+				[
 					'rows' => $egLogEntryMultiLineRows,
 					'name' => 'line',
 					'style' => 'width:100%;'
-				)
+				]
 			);
 			$htmlResult .= Xml::tags( 'div',
-				array(
+				[
 					'align' => 'right'
-				),
+				],
 				Xml::element( 'input',
-					array(
+					[
 						'type' => 'submit',
 						'name' => 'append',
 						'value' => wfMessage( 'logentry-append' )->text()
-					)
+					]
 				)
 			);
 		} else {
 			$htmlResult .= Xml::element( 'input',
-				array(
+				[
 					'type' => 'text',
 					'name' => 'line',
 					'style' => 'width:80%;'
-				)
+				]
 			);
 			$htmlResult .= Xml::element( 'input',
-				array(
+				[
 					'type' => 'submit',
 					'name' => 'append',
 					'value' => wfMessage( 'logentry-append' )->text()
-				)
+				]
 			);
 		}
 		$htmlResult .= Xml::element( 'input',
-			array(
+			[
 				'type' => 'hidden',
 				'name' => 'page',
 				'value' => $parser->getTitle()->getPrefixedText()
-			)
+			]
 		);
 		$htmlResult .= Xml::element( 'input',
-			array(
+			[
 				'type' => 'hidden',
 				'name' => 'token',
 				'value' => $parser->getUser()->getEditToken()
-			)
+			]
 		);
 		$htmlResult .= Xml::closeElement( 'form' );
 
-		// Return HTML output
 		return $htmlResult;
 	}
 }

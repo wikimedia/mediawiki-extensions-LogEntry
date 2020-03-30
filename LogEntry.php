@@ -9,10 +9,10 @@
  * MediaWiki.
  *
  * Usage: Add the following line in LocalSettings.php:
- * require_once( "$IP/extensions/LogEntry/LogEntry.php" );
+ * wfLoadExtension( 'LogEntry' );
  *
  * @author Trevor Parscal <tparscal@wikimedia.org>
- * @license GPL v2
+ * @license GPL-2.0-only
  */
 
 if ( function_exists( 'wfLoadExtension' ) ) {

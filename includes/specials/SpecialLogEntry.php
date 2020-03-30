@@ -6,16 +6,16 @@
  * @ingroup Extensions
  */
 
-// LogEntry special page
 class SpecialLogEntry extends UnlistedSpecialPage {
-
-	/* Functions */
 
 	public function __construct() {
 		// Register the special page as unlisted
 		parent::__construct( 'LogEntry' );
 	}
 
+	/**
+	 * @param string|null $par
+	 */
 	public function execute( $par ) {
 		global $wgRequest, $wgOut;
 		global $egLogEntryUserName, $egLogEntryTimeStamp;
@@ -24,13 +24,12 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 		$this->setHeaders();
 
 		// Get page
-		$page = $wgRequest->getText('page');
+		$page = $wgRequest->getText( 'page' );
 
 		// Check that the form was submitted
-		if( $wgRequest->wasPosted() ) {
+		if ( $wgRequest->wasPosted() ) {
 			// Check token
-			if( !$this->getUser()->matchEditToken( $wgRequest->getText('token') ) )
-			{
+			if ( !$this->getUser()->matchEditToken( $wgRequest->getText( 'token' ) ) ) {
 				// Alert of invalid page
 				$wgOut->addWikiMsg( 'logentry-invalidtoken' );
 				return;
@@ -42,23 +41,18 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 			$userCan = false;
 
 			// Check permissions
-			if( $title )
-			{
-				if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) )
-				{
+			if ( $title ) {
+				if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) ) {
 					// MW 1.33+
 					$userCan = MediaWikiServices::getInstance()
 						->getPermissionManagar()
 						->userCan( 'edit', $this->getUser(), $title );
-				}
-				else
-				{
+				} else {
 					$userCan = $title->userCan( 'edit' );
 				}
 			}
 
-			if ( $userCan )
-			{
+			if ( $userCan ) {
 				// Get article
 				$article = new Article( $title, 0 );
 
@@ -86,10 +80,9 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 
 				// Find line of first section
 				$sectionLine = false;
-				foreach( $contentLines as $i => $contentLine )
-				{
+				foreach ( $contentLines as $i => $contentLine ) {
 					// Look for == starting at the first character
-					if(strpos( $contentLine, '==' ) === 0) {
+					if ( strpos( $contentLine, '==' ) === 0 ) {
 						$sectionLine = $i;
 						break;
 					}
@@ -97,8 +90,7 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 
 				// Assemble final output
 				$output = '';
-				if( $sectionLine !== false )
-				{
+				if ( $sectionLine !== false ) {
 					// Lines up to section
 					$preLines = array_slice( $contentLines, 0, $sectionLine );
 
@@ -106,36 +98,32 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 					$postLines = array_slice( $contentLines, $sectionLine + 1 );
 
 					// Output Lines
-					$outputLines = array();
+					$outputLines = [];
 
-					if( trim( $contentLines[$sectionLine] ) == $heading ) {
+					if ( trim( $contentLines[$sectionLine] ) == $heading ) {
 						// Top section is current
 						$outputLines = array_merge(
 							$preLines,
-							array(
+							[
 								$contentLines[$sectionLine],
 								$newLine
-							),
+							],
 							$postLines
 						);
-					}
-					else
-					{
+					} else {
 						// Top section is old
 						$outputLines = array_merge(
 							$preLines,
-							array(
+							[
 								$heading,
 								$newLine,
 								$contentLines[$sectionLine]
-							),
+							],
 							$postLines
 						);
 					}
 					$output = implode( "\n", $outputLines );
-				}
-				else
-				{
+				} else {
 					// There is no section, make one
 					$output = sprintf( "%s\n%s\n%s", $content, $heading, $newLine );
 				}
