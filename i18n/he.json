@@ -10,6 +10,6 @@
 	"logentry-parserhook-desc": "הרחבת התג הזאת יוצרת טופס להוספה לדפי יומן",
 	"logentry-specialpage-desc": "הרחבת התג הזאת מאפשרת עיבוד להוספת לדפי יומן",
 	"logentry": "שורה ביומן",
-	"logentry-invalidpage": "דף בלתי תקין: $1",
-	"logentry-invalidtoken": "אסימון בלתי תקין"
+	"logentry-invalidpage": "דף בלתי־תקין: $1",
+	"logentry-invalidtoken": "אסימון בלתי־תקין"
 }
