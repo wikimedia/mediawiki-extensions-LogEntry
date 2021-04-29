@@ -1,4 +1,9 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\Revision\SlotRecord;
+
 /**
  * Special Page for the LogEntry extension
  *
@@ -69,8 +74,18 @@ class SpecialLogEntry extends UnlistedSpecialPage {
 						trim( htmlspecialchars( $wgRequest->getText( 'line' ) ) ) );
 
 				// Get content without logentry tag in it
-				$contentObj = $article->getContentObject();
-				$content = ContentHandler::getContentText( $contentObj );
+				$content = '';
+				$rev = $article->fetchRevisionRecord();
+				if ( $rev ) {
+					$contentObj = $rev->getContent(
+						SlotRecord::MAIN,
+						RevisionRecord::FOR_THIS_USER,
+						$article->getContext()->getUser()
+					);
+					if ( $contentObj instanceof TextContent ) {
+						$content = $contentObj->getText();
+					}
+				}
 
 				// Detect section date
 				$contentLines = explode( "\n", $content );
