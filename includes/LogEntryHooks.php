@@ -26,6 +26,13 @@ class LogEntryHooks {
 
 		// Don't cache since we are passing the token in the form
 		$parser->getOutput()->updateCacheExpiry( 0 );
+		if ( method_exists( $parser, 'getUserIdentity' ) ) {
+			// MW 1.36+
+			$user = MediaWiki\MediaWikiServices::getInstance()
+				->getUserFactory()->newFromUserIdentity( $parser->getUserIdentity() );
+		} else {
+			$user = $parser->getUser();
+		}
 
 		$htmlResult = Xml::openElement( 'form',
 			[
@@ -83,7 +90,7 @@ class LogEntryHooks {
 			[
 				'type' => 'hidden',
 				'name' => 'token',
-				'value' => $parser->getUser()->getEditToken()
+				'value' => $user->getEditToken()
 			]
 		);
 		$htmlResult .= Xml::closeElement( 'form' );
