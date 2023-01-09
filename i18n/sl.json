@@ -4,5 +4,10 @@
 			"Eleassar"
 		]
 	},
-	"logentry-invalidpage": "Neveljavna stran: $1"
+	"logentry-append": "Pripni",
+	"logentry-parserhook-desc": "Ta razširitev značk zagotavlja obrazec za dodajanje/pripenjanje strani dnevnika",
+	"logentry-specialpage-desc": "Ta razširitev značk zagotavlja obdelavo za dodajanje na dnevniške strani",
+	"logentry": "Dnevniški zapis",
+	"logentry-invalidpage": "Neveljavna stran: $1",
+	"logentry-invalidtoken": "Neveljaven žeton"
 }
