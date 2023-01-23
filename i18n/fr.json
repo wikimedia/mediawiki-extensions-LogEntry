@@ -8,7 +8,7 @@
 			"Verdy p"
 		]
 	},
-	"logentry-append": "Ajouter",
+	"logentry-append": "Ajouter à la fin",
 	"logentry-parserhook-desc": "Cette extension ajoute une balise fournissant un formulaire pour ajouter / préfixer du texte aux pages de journaux",
 	"logentry-specialpage-desc": "Cette extension de balise ajoute un processus pour ajouter aux pages de journaux",
 	"logentry": "Entrée du journal",
