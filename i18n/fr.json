@@ -9,9 +9,9 @@
 		]
 	},
 	"logentry-append": "Ajouter à la fin",
-	"logentry-parserhook-desc": "Cette extension ajoute une balise fournissant un formulaire pour ajouter / préfixer du texte aux pages de journaux",
+	"logentry-parserhook-desc": "Cette extension ajoute une balise fournissant un formulaire pour ajouter ou préfixer du texte aux pages de journaux",
 	"logentry-specialpage-desc": "Cette extension de balise ajoute un processus pour ajouter aux pages de journaux",
 	"logentry": "Entrée du journal",
-	"logentry-invalidpage": "Page incorrecte : $1",
-	"logentry-invalidtoken": "Prise incorrecte"
+	"logentry-invalidpage": "Page non valide : $1",
+	"logentry-invalidtoken": "Jeton non valide"
 }
