@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"logentry-invalidpage": "Neteisingas puslapis: $1",
+	"logentry-invalidtoken": "Neteisingas prieigos raktas"
+}
