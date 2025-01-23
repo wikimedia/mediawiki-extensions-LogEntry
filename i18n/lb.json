@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"logentry-append": "Derbäisetzen",
 	"logentry": "Androung an e Logbuch",
-	"logentry-invalidpage": "Net valabel Säit: $1"
+	"logentry-invalidpage": "Ongülteg Säit: $1"
 }
