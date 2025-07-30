@@ -8,5 +8,6 @@
 	},
 	"logentry-append": "Derbäisetzen",
 	"logentry": "Androung an e Logbuch",
-	"logentry-invalidpage": "Ongülteg Säit: $1"
+	"logentry-invalidpage": "Ongülteg Säit: $1",
+	"logentry-invalidtoken": "Ongültegen Token"
 }
