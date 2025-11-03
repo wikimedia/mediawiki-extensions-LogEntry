@@ -3,6 +3,7 @@
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\RevisionRecord;
 use MediaWiki\Revision\SlotRecord;
+use MediaWiki\Title\Title;
 
 /**
  * Special Page for the LogEntry extension
