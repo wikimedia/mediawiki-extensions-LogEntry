@@ -188,12 +188,17 @@ $specialPageAliases['vi'] = [
 	'LogEntry' => [ 'Mục_nhật_trình' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = [
-	'LogEntry' => [ '日志项' ],
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'LogEntry' => [ 'LogEntry' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Simplified Chinese (中文（简体）) */
+$specialPageAliases['zh-hans'] = [
+	'LogEntry' => [ '日志条目', '日志项' ],
+];
+
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
-	'LogEntry' => [ '條目日誌' ],
+	'LogEntry' => [ '日誌條目', '條目日誌' ],
 ];
