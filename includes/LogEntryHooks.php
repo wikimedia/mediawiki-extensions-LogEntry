@@ -6,6 +6,8 @@
  * @ingroup Extensions
  */
 
+use MediaWiki\Html\Html;
+
 class LogEntryHooks {
 
 	/**
@@ -34,7 +36,7 @@ class LogEntryHooks {
 			$user = $parser->getUser();
 		}
 
-		$htmlResult = Xml::openElement( 'form',
+		$htmlResult = Html::openElement( 'form',
 			[
 				'id' => 'logentryform',
 				'name' => 'logentryform',
@@ -44,18 +46,18 @@ class LogEntryHooks {
 			]
 		);
 		if ( $egLogEntryMultiLine ) {
-			$htmlResult .= Xml::element( 'textarea',
+			$htmlResult .= Html::element( 'textarea',
 				[
 					'rows' => $egLogEntryMultiLineRows,
 					'name' => 'line',
 					'style' => 'width:100%;'
 				]
 			);
-			$htmlResult .= Xml::tags( 'div',
+			$htmlResult .= Html::rawElement( 'div',
 				[
 					'align' => 'right'
 				],
-				Xml::element( 'input',
+				Html::element( 'input',
 					[
 						'type' => 'submit',
 						'name' => 'append',
@@ -64,14 +66,14 @@ class LogEntryHooks {
 				)
 			);
 		} else {
-			$htmlResult .= Xml::element( 'input',
+			$htmlResult .= Html::element( 'input',
 				[
 					'type' => 'text',
 					'name' => 'line',
 					'style' => 'width:80%;'
 				]
 			);
-			$htmlResult .= Xml::element( 'input',
+			$htmlResult .= Html::element( 'input',
 				[
 					'type' => 'submit',
 					'name' => 'append',
@@ -79,21 +81,21 @@ class LogEntryHooks {
 				]
 			);
 		}
-		$htmlResult .= Xml::element( 'input',
+		$htmlResult .= Html::element( 'input',
 			[
 				'type' => 'hidden',
 				'name' => 'page',
 				'value' => $parser->getTitle()->getPrefixedText()
 			]
 		);
-		$htmlResult .= Xml::element( 'input',
+		$htmlResult .= Html::element( 'input',
 			[
 				'type' => 'hidden',
 				'name' => 'token',
 				'value' => $user->getEditToken()
 			]
 		);
-		$htmlResult .= Xml::closeElement( 'form' );
+		$htmlResult .= Html::closeElement( 'form' );
 
 		return $htmlResult;
 	}
