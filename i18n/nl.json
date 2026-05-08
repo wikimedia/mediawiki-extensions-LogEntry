@@ -9,5 +9,5 @@
 	"logentry-specialpage-desc": "Deze tagextensie maakt het mogelijk om logboekpagina's toe te voegen",
 	"logentry": "Logboekregel",
 	"logentry-invalidpage": "Ongeldige pagina: $1",
-	"logentry-invalidtoken": "Ongeldig token"
+	"logentry-invalidtoken": "Onjuist token"
 }
