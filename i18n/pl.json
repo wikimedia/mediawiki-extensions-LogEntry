@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"PanWor",
 			"Sp5uhe"
 		]
 	},
 	"logentry-append": "Dopisz",
 	"logentry-parserhook-desc": "Rozszerzenie dodaje znacznik wstawiający formularz umożliwiający dopisanie treści na początek lub koniec strony logu",
 	"logentry-specialpage-desc": "Rozszerzenie realizuje dodanie wpisu do strony logu",
-	"logentry": "WpisDoLogu",
-	"logentry-invalidpage": "Nieprawidłowa strona $1",
+	"logentry": "Wpis w rejestrze",
+	"logentry-invalidpage": "Nieprawidłowa strona: $1",
 	"logentry-invalidtoken": "Nieprawidłowy token"
 }
